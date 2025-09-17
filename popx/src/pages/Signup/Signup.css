@@ -7,8 +7,9 @@
 	height: 812px;
 	margin: 0 auto;
 	position: relative;
-	background: #F7F8F9;
+	background:#F7F8F9;
 	box-sizing: border-box;
+    border: 1px solid #CBCBCB;
 }
 
 .signup-title {
@@ -57,11 +58,15 @@
 	color: #DD4A3D;
 }
 
+.signup-label1 .asterisk {
+    color: #DD4A3D;
+}
+
 .signup-input {
 	font-family: 'Rubik', sans-serif;
 	font-size: 14px;
 	color: #919191;
-	border: 1px solid #E5E7EB;
+	border: 1px solid #CBCBCB;
 	border-radius: 6px;
 	padding: 14px 16px;
 	outline: none;
