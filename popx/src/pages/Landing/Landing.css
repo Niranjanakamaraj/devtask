@@ -1,0 +1,75 @@
+/* Pixel-perfect landing page styles matching reference exactly */
+.landing-container {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: flex-end;
+	padding: 40px 24px;
+	max-width: 375px;
+	height: 812px;
+	margin: 0 auto;
+	position: relative;
+	background: #F7F8F9;
+	box-sizing: border-box;
+  border: 1px solid #CBCBCB;
+  margin-bottom: 100px !important;
+}
+
+.landing-title {
+	font-family: 'Rubik', sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+	color: #1D2226;
+	text-align:left;
+	line-height: 1.2px;
+}
+
+.landing-desc {
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+	color: #919191;
+	font-weight: 700;
+	text-align: left;
+	line-height: 1.4;
+}
+
+.landing-btn {
+	width: 100%;
+	max-width: 335px;
+	border-radius: 6px;
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 16px 0;
+	margin-bottom: 12px;
+	border: none;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+
+.landing-btn.primary {
+	background: #6C25FF;
+	color: #FFFFFF;
+}
+
+.landing-btn.secondary {
+	background: #6C25FF4B;
+	color: #000000;
+	border: none;
+}
+
+.landing-btn.primary:hover {
+	background: #5A1FD9;
+}
+
+.landing-btn.secondary:hover {
+	background: #6C25FF3D;
+}
+
+.landing-btn.primary:active {
+	background: #4B1EB1;
+}
+
+.landing-btn.secondary:active {
+	background: #6C25FF5C;
+}
