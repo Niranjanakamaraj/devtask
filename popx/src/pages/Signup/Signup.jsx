@@ -31,7 +31,6 @@ export default function Signup() {
             <input 
               name="name" 
               className="signup-input" 
-              placeholder="Marry Doe" 
               value={form.name} 
               onChange={handleChange} 
               required 
@@ -45,7 +44,6 @@ export default function Signup() {
             <input 
               name="phone" 
               className="signup-input" 
-              placeholder="Marry Doe" 
               value={form.phone} 
               onChange={handleChange} 
               required 
@@ -59,7 +57,6 @@ export default function Signup() {
             <input 
               name="email" 
               className="signup-input" 
-              placeholder="Marry Doe" 
               value={form.email} 
               onChange={handleChange} 
               required 
@@ -74,7 +71,6 @@ export default function Signup() {
               name="password" 
               type="password" 
               className="signup-input" 
-              placeholder="Marry Doe" 
               value={form.password} 
               onChange={handleChange} 
               required 
@@ -86,7 +82,6 @@ export default function Signup() {
             <input 
               name="company" 
               className="signup-input" 
-              placeholder="Marry Doe" 
               value={form.company} 
               onChange={handleChange} 
             />
@@ -94,7 +89,7 @@ export default function Signup() {
           
           <div className="signup-form-group signup-radio-group">
             <label className="signup-label1">
-              Are you an Agency?
+              Are you an Agency?<span className="asterisk">*</span>
             </label>
             <div className="radio-options">
               <label className="signup-radio">
