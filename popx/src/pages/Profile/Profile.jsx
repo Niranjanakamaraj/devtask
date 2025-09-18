@@ -1,6 +1,7 @@
 import React from "react";
-import MobileFrame from "../../Components/MobileFrame";
+// Importing the component-specific CSS to style the Profile page
 import "./Profile.css";
+import MobileFrame from "../../Components/MobileFrame";
 
 export default function Profile() {
   return (

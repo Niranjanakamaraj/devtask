@@ -1,7 +1,8 @@
 import React from "react";
+// Importing the component-specific CSS to style the Login page
+import "./Login.css";
 import MobileFrame from "../../Components/MobileFrame";
 import { useNavigate } from "react-router-dom";
-import "./Login.css";
 
 export default function Login() {
   const navigate = useNavigate();

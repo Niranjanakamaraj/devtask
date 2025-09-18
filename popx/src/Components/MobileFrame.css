@@ -1,16 +1,19 @@
+/* Full-page container that centers the phone frame
+   both vertically and horizontally */
 .outer {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background: #f3f3f3; /* page background */
+  min-height: 100vh;          
+  background: #f3f3f3;       
 }
 
+/* The phone-like frame where the app UI is rendered */
 .phone {
-  width: 375px;   /* iPhone width */
-  height: 812px;  /* iPhone height */
-  background: #fff;
-  box-shadow: 0 0 30px rgba(0,0,0,0.1);
-  overflow: hidden;
-  position: relative;
+  width: 375px;              
+  height: 812px;             
+  background: #fff;        
+  box-shadow: 0 0 30px rgba(0,0,0,0.1); 
+  overflow: hidden;           
+  position: relative;        
 }

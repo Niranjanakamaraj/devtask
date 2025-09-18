@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+// Importing the component-specific CSS to style the Signup page
+import "./Signup.css";
 import MobileFrame from "../../Components/MobileFrame";
 import { useNavigate } from "react-router-dom";
-import "./Signup.css";
 
 export default function Signup() {
   const navigate = useNavigate();
