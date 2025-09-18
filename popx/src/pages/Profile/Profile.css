@@ -18,7 +18,6 @@
 	font-family: 'Rubik', sans-serif;
     align-items: center;
 	font-size: 18px;
-	font-weight: 500;
     height:68px;
 	color: #1D2226;
     background-color: #ffff;
@@ -46,8 +45,8 @@
 	height: 48px;
 }
 .profile-avatar {
-	width: 48px;
-	height: 48px;
+	width: 76px;
+	height: 76px;
 	border-radius: 50%;
 	object-fit: cover;
 	border: 2px solid #CBCBCB;
@@ -56,8 +55,8 @@
 }
 .profile-camera-icon {
 	position: absolute;
-	right: -6px;
-	bottom: -6px;
+	right: -38px;
+	bottom: -28px;
 	width: 24px;
 	height: 24px;
 	display: flex;
@@ -71,7 +70,7 @@
 .profile-info {
 	display: flex;
 	flex-direction: column;
-	gap: 2px;
+	padding-left: 40px;
 }
 .profile-name {
 	font-family: 'Rubik', sans-serif;
@@ -79,12 +78,12 @@
 	font-weight: 500;
 	color: #1D2226;
 	letter-spacing: 0;
+	padding-bottom: 5px;
 	text-transform: none;
 }
 .profile-email {
 	font-family: 'Rubik', sans-serif;
 	font-size: 14px;
-	font-weight: 400;
 	color: #1D2226;
 	letter-spacing: 0;
 	text-transform: none;
@@ -94,16 +93,16 @@
 .dashed-line {
   width:100%;               
   border-bottom: 2px dashed #CBCBCB;
-  margin-top: 527px;
+  margin-top: 493px;
 }
 
 .profile-desc {
 	font-family: 'Rubik', sans-serif;
 	font-size: 14px;
-	font-weight: 400;
 	color: #1D2226;
 	margin-top: 8px;
 	line-height: 1.4;
+	padding-top: 30px;
 	letter-spacing: 0;
 	text-transform: none;
 	opacity: 0.8;

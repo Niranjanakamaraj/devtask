@@ -9,7 +9,7 @@ export default function Login() {
     <MobileFrame>
       <div className="login-container">
         <h1 className="login-title">Signin to your<br/>PopX account</h1>
-        <p className="login-desc">Lorem ipsum dolor sit amet,<br/>consectetur adipiscing elit.</p>
+        <p className="login-desc">Lorem ipsum dolor sit amet,<br/>consectetur adipiscing elit,</p>
         
         <div className="login-form-group">
           <label className="login-label">Email Address</label>

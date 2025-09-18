@@ -15,7 +15,6 @@
 .signup-title {
 	font-family: 'Rubik', sans-serif;
 	font-size: 24px;
-	font-weight: 700;
 	color: #1D2226;
 	margin-bottom: 24px;
 	text-align: left;
@@ -39,7 +38,6 @@
 	font-family: 'Rubik', sans-serif;
 	font-size: 12px;
 	color: #6C25FF;
-	font-weight: 700;
 	position: absolute;
 	top: -8px;
 	left: 16px;
@@ -48,7 +46,6 @@
 	z-index: 1;
 }
 .signup-label1 {
-    font-weight: 700;
     padding:2px 4px;
     margin-bottom: 4px !important;
     color:#1D2226;
@@ -73,7 +70,6 @@
 	background: #F7F8F9;
 	width: 100%;
 	box-sizing: border-box;
-	font-weight: 700;
 }
 
 .signup-input:focus {
@@ -96,7 +92,6 @@
 	margin-bottom: 8px;
 	font-size: 12px;
 	color: #6C25FF;
-	font-weight: 700;
 }
 
 .radio-options {
@@ -115,7 +110,6 @@
 	align-items: center;
 	gap: 8px;
 	cursor: pointer;
-	font-weight: 700;
 }
 
 .signup-radio input[type="radio"] {
@@ -132,7 +126,6 @@
 	border-radius: 6px;
 	font-family: 'Rubik', sans-serif;
 	font-size: 16px;
-	font-weight: 700;
 	padding: 16px 0;
 	background: #6C25FF;
 	color: #FFFFFF;
